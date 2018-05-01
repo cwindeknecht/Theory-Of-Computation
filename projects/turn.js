@@ -1,3 +1,4 @@
+let done = false;
 let state = "unlit";
 let action = null;
 
@@ -70,5 +71,8 @@ while(!done) {
         else {
             console.log("Not Possible");
         }
+    }
+    else {
+        done = true;
     }
 }
